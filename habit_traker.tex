@@ -1,0 +1,117 @@
+\documentclass{article}
+\usepackage[table, svgnames, dvipsnames]{xcolor}
+\usepackage{colortbl}
+
+% Page setup
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	landscape,    
+	inner=0.5cm,  % Left margin
+	outer=0.5cm   % Right margin
+}
+
+% Required packages
+\usepackage{fancyhdr}
+\usepackage{array}
+\usepackage{arydshln}  % For dotted lines in tables
+
+% Table column setup
+\newcolumntype{C}{>{\centering\arraybackslash}m{0.3cm}}
+
+% Page style setup
+\pagestyle{fancy}
+\fancyfoot{}
+\setlength{\footskip}{60pt}
+\renewcommand{\headrulewidth}{0pt}
+
+% Increase row height in tables
+\renewcommand{\arraystretch}{2.7}
+
+% Custom footer command
+\newcommand{\changefooter}[1]{
+	\fancyfoot[C]{#1}
+}
+
+\begin{document}
+	
+	
+	\begin{table}[ht]
+		\centering
+		\arrayrulecolor{lightgray}		
+		\begin{tabular}{m{4cm}|*{31}{C|}c}
+
+			\multicolumn{1}{m{4cm}}{\textcolor{darkgray}{\textsf{\textbf{MONTH}}}} & \multicolumn{31}{c}{\textcolor{darkgray}{\textsf{\textbf{JAN  \ \ \ \ \ \ \ \ FEB \ \ \  \ \ \ \ \  MAR  \ \ \ \ \ \ \ \ APR  \ \ \ \ \ \ \ \ MAY  \ \ \ \ \ \ \ \ JUN  \ \ \ \  \ \ \ \ JUL  \ \ \ \ \ \ \ \ AUG  \ \ \ \ \ \ \ \ SEP \  \ \ \ \ \ \ \ OCT  \ \ \ \ \ \ \ \ NOV \  \ \ \ \ \ \ \ DEC}}}} &  \\
+			\hline
+		    \textcolor{darkgray}{\textbf{\textsf{HABIT}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{1}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{2}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{3}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{4}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{5}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{6}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{7}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{8}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{9}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{10}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{11}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{12}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{13}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{14}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{15}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{16}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{17}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{18}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{19}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{20}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{21}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{22}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{23}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{24}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{25}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{26}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{27}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{28}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{29}}} & 
+			\multicolumn{1}{m{0.3cm}}{\textcolor{darkgray}{\textsf{30}}} & 
+			\multicolumn{1}{m{0.3cm}|}{\textcolor{darkgray}{\textsf{31}}} & 
+			\textcolor{darkgray}{\textsf{TOTAL}} \\
+			\hline
+			& & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & \\
+			\hline
+			\rowcolor{Gainsboro!60}
+			\hline
+			& & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & \\
+			\hline
+			& & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & \\
+			\hline
+			\rowcolor{Gainsboro!60}
+			\hline
+			& & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & \\
+			\hline
+			& & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & \\
+			\hline
+			\rowcolor{Gainsboro!60}
+			\hline
+			& & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & \\
+			\hline
+			& & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & \\
+			\hline
+			\rowcolor{Gainsboro!60}
+			\hline
+			& & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & \\
+			\hline
+			& & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & \\
+			\hline
+			\rowcolor{Gainsboro!60}
+			\hline
+			& & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & \\
+			\hline
+			& & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & \\
+			\hline			
+		\end{tabular}
+	\end{table}
+
+\changefooter{People do not decide their futures, they decide their habits and their habits decide their futures. - F.M. Alexander}
+
+\end{document}
