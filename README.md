@@ -42,9 +42,7 @@ This project generates a specified number of habit tracker PDFs with random quot
 
 ### Run the Script:
 
-    ```bash
     python main.py
-    ```
 
 ### Enter the Number of Habit Trackers:
 
